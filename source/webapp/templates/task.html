@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ task }}{% endblock %}
+
+{% block menu %}
+
+    <li><a href="{% url 'task_update' task.pk %}">Edit</a></li>
+
+{% endblock %}
+
+{% block content %}
+    <!--<p class="center"><b>{{ task.description }}</b></p>
+    <p class="center">Task status <b> {{ task.status }}</b></p>
+    <p class="center">Finish date<b>  {{ task.date_perf }}</b></p> -->
+    <table style="width: 100%">
+        <tr>
+            <th>
+                Description
+            </th>
+            <th>
+                 task status
+            </th>
+            <th>
+                Finish date
+            </th>
+            <th>
+                details
+            </th>
+        </tr>
+        <tr>
+            <td>
+                {{ task.description }}
+            </td>
+            <td>
+                 {{ task.status }}
+            </td>
+            <td>
+                {{ task.date_perf }}
+            </td>
+            <td>
+                {{ task.detail }}
+            </td>
+        </tr>
+    </table>
+{% endblock %}

@@ -1,0 +1,60 @@
+[
+{
+  "model": "webapp.task",
+  "pk": 3,
+  "fields": {
+    "description": "to buy a bread",
+    "status": "new",
+    "date_perf": "",
+    "detail": ""
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 5,
+  "fields": {
+    "description": "my_first_task",
+    "status": "in_progress",
+    "date_perf": "",
+    "detail": " "
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 8,
+  "fields": {
+    "description": "just_a_test",
+    "status": "new",
+    "date_perf": "",
+    "detail": " "
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 9,
+  "fields": {
+    "description": "just_for_fun",
+    "status": "new",
+    "date_perf": "",
+    "detail": "don't know"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$rETxGUggP9m6$1+XpTSlJd0TUOGy4a5vygINOKbNt4VBXluA1qSdpgYY=",
+    "last_login": "2019-09-03T14:37:21.111Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-03T14:37:10.646Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
